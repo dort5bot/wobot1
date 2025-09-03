@@ -12,7 +12,8 @@ from telegram import Update
 from telegram.ext import CommandHandler, ContextTypes
 
 from utils.config import CONFIG
-from utils.binance_api import get_binance_api
+from utils.binance_api import get_binance_client
+#from utils.binance_api import get_binance_api
 from utils import io_utils
 
 # =========================
