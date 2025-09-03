@@ -8,7 +8,8 @@ import logging
 from telegram import Update
 from telegram.ext import ContextTypes
 from utils.apikey_utils import get_apikey
-from utils.binance_api import BinanceClient, get_binance_api
+#from utils.binance_api import BinanceClient, get_binance_api
+from utils.binance_api import get_binance_client
 from utils.ap_utils import build_ap_report_lines_pro
 
 # Encryption helper: duplicate minimal helper to decrypt stored api/secret (works with Fernet)
