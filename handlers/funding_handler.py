@@ -7,7 +7,8 @@ from typing import List, Optional, Union
 from telegram import Update
 from telegram.ext import CommandHandler, ContextTypes
 
-from utils.binance_api import get_binance_api
+from utils.binance_api import get_binance_client
+#from utils.binance_api import get_binance_api
 
 LOG = logging.getLogger("funding_handler")
 LOG.addHandler(logging.NullHandler())
